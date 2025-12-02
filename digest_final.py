@@ -142,7 +142,21 @@ def save_config(api_key):
 
 
 def setup_api_key():
-    """Interactive API key setup"""
+    """Interactive API key setup (local only)"""
+    # Check if running in GitHub Actions
+   # Load or setup API key
+    api_key = os.environ.get('ANTHROPIC_API_KEY')
+    if not api_key:
+        config = load_config()
+        if not config:
+            api_key = setup_api_key()
+        else:
+            api_key = config["api_key"]
+            print("✓ API key loaded\n")
+    else:
+        print("✓ API key loaded from environment\n")
+    
+    # Local interactive setup
     print("\n" + "="*60)
     print("  INITIAL CONFIGURATION")
     print("="*60)
