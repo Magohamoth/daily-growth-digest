@@ -30,13 +30,10 @@ RSS_FEEDS = {
     "saas": [
         "https://www.saastr.com/feed/",
     ],
-    "esg": [
-        "https://www.esgtoday.com/feed/",
-    ],
     "fintech": [
-        "https://thefintechtimes.com/feed",  # ✅ The Fintech Times - World's first fintech newspaper
-        "https://paymentsdive.com/feeds/news/",  # ✅ Payments Dive - Payments & FinTech
-        "https://fintechnews.sg/feed/",  # ✅ Fintech News Singapore - Global coverage
+        "https://www.finextra.com/rss/headlines.aspx",
+        "https://bankautomationnews.com/feed/",
+        "https://techbullion.com/feed/",
     ],
     "banking": [
         "https://www.americanbanker.com/feed",
