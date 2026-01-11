@@ -27,23 +27,28 @@ RSS_FEEDS = {
         "https://marketingweek.com/feed/",
         "https://www.searchenginejournal.com/feed/",
     ],
-    "b2b": [
+    "saas": [
         "https://www.saastr.com/feed/",
     ],
     "esg": [
         "https://www.esgtoday.com/feed/",
     ],
+    "fintech": [
+        "https://thefintechtimes.com/feed",  # ✅ The Fintech Times - World's first fintech newspaper
+        "https://paymentsdive.com/feeds/news/",  # ✅ Payments Dive - Payments & FinTech
+        "https://fintechnews.sg/feed/",  # ✅ Fintech News Singapore - Global coverage
+    ],
     "banking": [
         "https://www.americanbanker.com/feed",
         "https://www.bankingdive.com/feeds/news/",
-        "https://thefinancialbrand.com/feed/",  # Feed général seulement
+        "https://thefinancialbrand.com/feed/",
     ],
 }
 
 CATEGORIES = {
     "ai": {"icon": "🤖", "title": "AI & Automation"},
     "growth": {"icon": "📈", "title": "Growth Marketing"},
-    "b2b": {"icon": "🎯", "title": "B2B SaaS"},
+    "saas": {"icon": "🎯", "title": "B2B SaaS"},
     "esg": {"icon": "🌱", "title": "ESG & Sustainability"},
     "fintech": {"icon": "💳", "title": "FinTech Innovation"},
     "banking": {"icon": "🏦", "title": "Banking & Financial Services"},
@@ -103,7 +108,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
                 <span>{{DATE}}</span>
             </div>
             <h1>Daily Growth Digest</h1>
-            <p class="subtitle">Strategic Insights for B2B CEOs, CROs & CMOs</p>
+            <p class="subtitle">Strategic Insights for Financial Services Executives</p>
         </header>
         {{SECTIONS}}
         <div class="metrics-section">
