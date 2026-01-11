@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Daily Growth Digest - Automated Press Review
-Generates daily digest of strategic insights for B2B CEOs, CROs & CMOs
+Generates daily digest of strategic insights for CEOs, CROs & CMOs
 Author: Florian Negre
 """
 
