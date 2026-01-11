@@ -33,16 +33,10 @@ RSS_FEEDS = {
     "esg": [
         "https://www.esgtoday.com/feed/",
     ],
-    "fintech": [
-        "https://thefinancialbrand.com/news/fintech-banking/feed/",
-        "https://thefinancialbrand.com/news/banking-technology/feed/",
-    ],
     "banking": [
         "https://www.americanbanker.com/feed",
         "https://www.bankingdive.com/feeds/news/",
-        "https://thefinancialbrand.com/news/bank-marketing/feed/",
-        "https://thefinancialbrand.com/news/digital-transformation-banking/feed/",
-        "https://thefinancialbrand.com/news/digital-marketing-banking/feed/",
+        "https://thefinancialbrand.com/feed/",  # Feed général seulement
     ],
 }
 
